@@ -1,0 +1,14 @@
+{
+  "type": "postgres",
+  "host": "",
+  "port": 5432,
+  "username": "",
+  "password": "",
+  "database": "",
+  "synchronize": false,
+  "entities": ["dist/domain/**/entities/*.entity.js"],
+  "migrations": ["dist/shared/database/migrations/*.js"],
+  "cli": {
+    "migrationsDir": "src/shared/database/migrations"
+  }
+}
